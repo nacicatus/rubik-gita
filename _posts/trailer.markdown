@@ -16,4 +16,4 @@ It all started with a desire to read the entire conversation between Arjuna and 
 However, when I progressed on this journey I suddenly found the narrative deviating into bylanes and contradictions. That led me to a completely different understanding of the Gita, one that required me to disassemble the text... then put it back together again. In the process I discovered the facets, the colors, and the magic of this puzzling book. Walk with me through this crisis of faith, and I will bring you back.
 
 <!--more-->
-To follow my journey, get my book on iBooks
+To follow my journey, get the Rubik Gita on the iBooks Store
