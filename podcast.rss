@@ -32,11 +32,14 @@ layout: null
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
         <itunes:image href="{{ site.logo  | prepend: site.baseurl | prepend: site.url }}" />
-        <itunes:category text="Business">
-            <itunes:category text="Careers" />
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Hinduism" />
         </itunes:category>
-        <itunes:category text="Business">
-            <itunes:category text="Entrepreneurship" />
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Philosophy" />
+        </itunes:category>
+        <itunes:category text="Education">
+            <itunes:category text="Self-Improvement" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
         <itunes:explicit>no</itunes:explicit>
