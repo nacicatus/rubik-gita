@@ -4,7 +4,7 @@ date:         2022-08-08 08:08:08 +0800
 keywords:
 - tag1
 - tag2
-m4a-url:      "/assets/audio/ep1.m4a"
+mp3-url:      "/assets/audio/ep1.mp3"
 episode-type: full # or "trailer"
 explicit:     "no"
 block:        "no" # no means it is published
