@@ -6,10 +6,10 @@ layout: null
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
     xmlns:atom="http://www.w3.org/2005/Atom" 
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
-    xml:lang="en-us">
+    xml:lang="{{ site.lang }}">
     <channel>
-        <atom:link href="https://nacicatus.github.io/rubik-gita/podcast.rss" rel="self" type="application/rss+xml" />
-        <title>Solving the Bhagavad Gita like a Rubik Cube</title>
+        <atom:link href="{{ "/podcast.rss" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+        <title>{{ site.title }}</title>
         <description><![CDATA[{{ site.description | strip_html | expand_urls: site.url | cdata_escape }}]]></description>
         <link>{{ site.baseurl | prepend: site.url }}</link>
         <language>{{ site.lang }}</language>
