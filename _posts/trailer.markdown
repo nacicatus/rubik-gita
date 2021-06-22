@@ -5,7 +5,7 @@ date:         2021-06-21 16:29:02 +0200
 keywords:
 - trailer
 - introduction
-m4a-url:      "/assets/audio/trailer.m4a"
+mp3-url:      "/assets/audio/trailer.mp3"
 episode-type: trailer # or "full"
 explicit:     "no"
 block:        "no" # no means it is published
