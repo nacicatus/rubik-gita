@@ -6,10 +6,10 @@ layout: null
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
     xmlns:atom="http://www.w3.org/2005/Atom" 
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
-    xml:lang="en-us">
+    xml:lang="{{ site.lang }}">
     <channel>
-        <atom:link href="https://nacicatus.github.io/rubik-gita/podcast.rss" rel="self" type="application/rss+xml" />
-        <title>Solving the Bhagavad Gita like a Rubik Cube</title>
+        <atom:link href="{{ "/podcast.rss" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+        <title>{{ site.title }}</title>
         <description><![CDATA[{{ site.description | strip_html | expand_urls: site.url | cdata_escape }}]]></description>
         <link>{{ site.baseurl | prepend: site.url }}</link>
         <language>{{ site.lang }}</language>
@@ -32,11 +32,14 @@ layout: null
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
         <itunes:image href="{{ site.logo  | prepend: site.baseurl | prepend: site.url }}" />
-        <itunes:category text="Business">
-            <itunes:category text="Careers" />
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Hinduism" />
         </itunes:category>
-        <itunes:category text="Business">
-            <itunes:category text="Entrepreneurship" />
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Philosophy" />
+        </itunes:category>
+        <itunes:category text="Education">
+            <itunes:category text="Self-Improvement" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
         <itunes:explicit>no</itunes:explicit>
@@ -49,7 +52,7 @@ layout: null
                 <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-                <enclosure url="{{ post.mp3-url | prepend: site.baseurl | prepend: site.url }}" length="1" type="audio/mp3"/>
+                <enclosure url="{{ post.m4a-url | prepend: site.baseurl | prepend: site.url }}" length="1" type="audio/m4a"/>
                 <itunes:author>{{ site.author }}</itunes:author>
                 <itunes:summary><![CDATA[{{ post.content | strip_html | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
                 <itunes:subtitle><![CDATA[{{ post.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
