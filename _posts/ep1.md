@@ -1,11 +1,10 @@
 ---
 title:        "Episode 1: Historicals"
-subtitle:     "The origins"
 date:         2021-06-21 16:29:02 +0200
 keywords:
 - trailer
 - introduction
-mp3-url:      "/assets/audio/intro.mp3"
+mp3-url:      "/assets/audio/ep1.mp3"
 episode-type: full # or "full"
 explicit:     "no"
 block:        "no" # no means it is published
