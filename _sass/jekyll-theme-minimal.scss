@@ -25,9 +25,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:40px;
+  font-size:42px;
   color:#65d44c;
-  font-weight:normal;
+  font-weight:bold;
 }
 
 h2 {
@@ -46,12 +46,12 @@ a {
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#ffe757;
 }
 
 a small {
   font-size:11px;
-  color:#ffe757;
+  color:#fff;
   margin-top:-0.3em;
   display:block;
 }
