@@ -6,6 +6,7 @@ keywords:
 - trailer
 - introduction
 mp3-url:      "/assets/audio/trailer.mp3"
+length: 2431603
 episode-type: trailer # or "full"
 explicit:     "no"
 block:        "no" # no means it is published
