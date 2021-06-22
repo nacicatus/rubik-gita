@@ -1,18 +1,17 @@
 ---
-title:        "Introducing Your Amazing Podcast"
-subtitle:     "Optional subtitle here"
-date:         2020-08-03 16:29:02 +0800
+title:        "Trailer: What is the Rubik Gita?"
+subtitle:     "An Introduction to my inquiry into the puzzling text of the Gita"
+date:         2021-06-21 16:29:02 +0200
 keywords:
-- tag1
-- tag2
-mp3-url:      "/assets/audio/intro.mp3"
+- trailer
+- introduction
+mp3-url:      "/assets/audio/trailer.mp3"
 episode-type: trailer # or "full"
 explicit:     "no"
 block:        "no" # no means it is published
 layout: podcast
 excerpt_separator: <!--more-->
 ---
-Excerpt here.
-<!--more-->
+It all started with a desire to read the entire conversation between Arjuna and Krishna on the battlefield of Kurukshetra, from end to end, without purports, as it were. I didn't want to know anyone's explanations, I just wanted to know what the two talked about, how the conversation went. 
+However, when I progressed on this journey I suddenly found the narrative deviating into bylanes and contradictions. That led me to a completely different understanding of the Gita, one that required me to disassemble the text... then put it back together again. In the process I discovered the facets, the colors, and the magic of this puzzling book. I will lead you through this crisis of faith, and bring you back.
 
-More details of your episode here.
