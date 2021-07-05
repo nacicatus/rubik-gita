@@ -22,7 +22,7 @@
         <p>in which is explained the process of</p>
 
         <h3>{{ site.description }}</h3>
-        <a href="https://open.spotify.com/show/7MRyPXkhcP1edksvITrOhU"><img src="/assets/img/spotify-podcast-badge-blk-grn-330x80.png" alt="Spotify" /></a>
+        <a href="https://open.spotify.com/show/7MRyPXkhcP1edksvITrOhU"><img src={{ "/assets/img/spotify-podcast-badge-blk-grn-330x80.png | append: site.github.build_revision | relative_url }}" alt="Spotify" /></a>
       </header>
       <section>
 
