@@ -4,7 +4,7 @@ date:         2021-07-10 01:02:00 +0000
 keywords:
 - puzzle
 - narrative
-mp3-url:      "/assets/audio/jumbledlore.mp3"
+mp3-url:      "/assets/audio/Jumbledlore.mp3"
 length: 20621605
 season: 1
 episode: 2
