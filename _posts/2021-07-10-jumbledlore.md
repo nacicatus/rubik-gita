@@ -15,6 +15,6 @@ block:        "no" # no means it is published
 layout: podcast
 excerpt_separator: <!--more-->
 ---
-We start following the narrative and discover the points at which it goes off track, contradicts itself and not one, not two, but three different Krishna's hiding in plain sight.
+We start following the narrative and discover the points at which it goes off track, contradicts itself and reveals not one, not two, but three different Krishnas hiding in plain sight.
 
 <!--more-->
